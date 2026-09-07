@@ -1,0 +1,8 @@
+{
+  "name": "General",
+  "description": "B2B dvostrani marketplace za građevinsku industriju i tešku mehanizaciju (Split-fee model).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      window.addEventListener('error', function(e) {
+        if (e.message && e.message.includes('Cannot set property fetch')) {
+          e.preventDefault();
+        }
+      });
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>General - B2B Građevinski Marketplace</title>
+    <meta name="description" content="Platforma za iznajmljivanje teške mehanizacije, radnika i materijala (Split-fee model)." />
+    <meta property="og:title" content="General - B2B Građevinski Marketplace" />
+    <meta property="og:description" content="Platforma za iznajmljivanje teške mehanizacije, radnika i materijala (Split-fee model)." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
